@@ -1,4 +1,4 @@
-package lib
+package singleton
 {
 	public class Singleton
 	{
@@ -17,9 +17,9 @@ package lib
 				throw new Error("invalid constructor");
 		}
 		
-		public function testFunc():void
+		public function sayHello():void
 		{
-			trace("tests");
+			trace("hello!!!");
 		}
 	}
 }
